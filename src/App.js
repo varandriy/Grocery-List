@@ -1,12 +1,10 @@
 import React from 'react';
-import {TodoList} from './TodoList'
+import { EntriesList } from './EntriesList';
 
 function App() {
   return (
-    <TodoList/>
-  )
-    
-  
+    <EntriesList/>
+  );
 }
 
 export default App;

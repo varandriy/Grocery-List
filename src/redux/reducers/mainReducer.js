@@ -1,6 +1,6 @@
-import {combineReducers} from 'redux';
-import {todoItemsReducer} from './todoItemsReducer'
+import { combineReducers } from 'redux';
+import { entriesReducer } from './entriesReducer';
 
 export const mainReducer = combineReducers({
-    todos: todoItemsReducer
-})
+  entries: entriesReducer,
+});
